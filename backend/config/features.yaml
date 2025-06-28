@@ -1,0 +1,9 @@
+# LexGuardian Feature Flags
+# ⚠️ Internal Use Only: Enable advanced agent logic
+
+nlp_pipeline: true           # Enables NLP extraction (NER, coref, etc.)
+governance_mode: true        # Enables role-based access & audit logs
+federation_mode: false       # Placeholder for MetaAgent federation protocol (mask this)
+log_integrity: true          # Enables hash-based immutable audit chains
+summarization: true
+clause_classification: true
